@@ -65,14 +65,14 @@ My Commands Are As Follows:
 
 /start - To Restart Bot..!
 /cmds - To Get Help Menu
-/generate - To Generate foxsports Accounts
+/foxsports - To Generate foxsports Accounts
 /about - To Get Your Current Info
 
 Share And Support Us...❤️**
 """
     await event.reply(help_text)     
     
-@warnerstarkbot.on(events.NewMessage(pattern="^/(generate|gen|account)$"))
+@warnerstarkbot.on(events.NewMessage(pattern="^/(foxsports)$"))
 async def hmm(event):
     if Config.JTU_ENABLE:
     	starky = await check_if_subbed(Config.CHANNEL_USERNAME, event, warnerstarkbot)
