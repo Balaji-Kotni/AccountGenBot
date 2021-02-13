@@ -12,4 +12,4 @@ class Config(object):
     CHANNEL_URL = os.environ.get("CHANNEL_URL", None)
     DUMB_CHAT = int(os.environ.get("DUMB_CHAT", False))
     OWNER_ID = int(os.environ.get("OWNER_ID", None))
-    GEN_LIMIT_PERDAY = int(os.environ.get("GEN_LIMIT_PERDAY", 5))
+    GEN_LIMIT_PERDAY = int(os.environ.get("GEN_LIMIT_PERDAY", 2))
