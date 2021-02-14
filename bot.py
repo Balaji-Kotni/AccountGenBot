@@ -69,7 +69,7 @@ My Commands Are As Follows:
 /foxsports - To Generate foxsports Accounts
 /cfd - To Generate call of duty Accounts
 /AcornTv - To Generate AcornTv Accounts
-/Alt-Balaji - To Generate Alt-Balaji Accounts
+/Alt - To Generate Alt-Balaji Accounts
 /voot - To Generate voot Accounts
 /about - To Get Your Current Info
 
@@ -107,7 +107,7 @@ async def hmm(event):
 
 
  #alt balaji       
-@warnerstarkbot.on(events.NewMessage(pattern="^/(Alt-Balaji)$"))
+@warnerstarkbot.on(events.NewMessage(pattern="^/(Alt)$"))
 async def hmm(event):
     if Config.JTU_ENABLE:
     	starky = await check_if_subbed(Config.CHANNEL_USERNAME, event, warnerstarkbot)
